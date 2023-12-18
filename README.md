@@ -24,7 +24,7 @@ convert gpt
 ```
 </br>
 
-## Makes EFI Partition 🖥️ 
+## Making EFI Partition 🖥️ 
 ```
 create partition efi size=100
 ```
@@ -37,7 +37,7 @@ assign letter=g:
 ![Win11EFIMade](https://github.com/ZBNZGIT/MyWin11Setup/assets/68793343/d49eca77-cf9a-4edf-b1f7-2280bfde24cc)
 </br>
 
-## Makes Primary Partition 📂
+## Making Primary Partition 📂
 ```
 create partition primary
 ```
