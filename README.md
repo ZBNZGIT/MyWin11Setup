@@ -29,7 +29,7 @@ convert gpt
 create partition efi size=100
 ```
 ```
-format fs=fat32 quick
+format fs=fat32 quick label=”System”
 ```
 ```
 assign letter=g:
@@ -42,7 +42,7 @@ assign letter=g:
 create partition primary
 ```
 ```
-format fs=ntfs quick
+format fs=ntfs quick label=”Local Disk”
 ```
 ```
 assign letter=c:
